@@ -64,7 +64,7 @@
 #else
 #define MAXPAYLOAD (2048)
 #define PREALLOCBUF 32
-#define MAXRINGBUF  60
+#define MAXRINGBUF  64
 #endif
 
 #define sizearray(a)  (sizeof(a) / sizeof((a)[0]))
